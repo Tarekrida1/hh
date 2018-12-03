@@ -2,22 +2,21 @@ $(function() {
     'use strict';
 
     /*    change bg nav and animate on scroll */
+    /*
     $(document).scroll(function() {
         if ($(document).scrollTop() > 20) {
 
             $(".navbar .click").css({ "border-color": "#000" });
             $(".navbar .click span").css({ "background": "#000" });
-            $(".navbar .logo .lan").css({ "opacity": "1" });
             $("#brand").removeClass("brand");
         } else {
 
             $(".navbar .click").css({ "border-color": "#fff" });
             $(".navbar .click span").css({ "background": "#fff" });
-
-            $(".navbar .logo .lan").css({ "opacity": "0" });
             $("#brand").addClass("brand");
         }
     });
+    */
     $('.menu a').on('click', function() {
         event.preventDefault();
         var mySection = $(this).attr("id");

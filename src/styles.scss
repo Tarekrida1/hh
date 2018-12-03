@@ -293,14 +293,14 @@ $w_color: #fff;
 /*********** start themes *******/
 
 .themes-menu {
-    height: 180px;
+    height: 200px;
     width: 100px;
     background: #fff;
     position: fixed;
     @include bradius(10);
-    right: 0;
+    left: 0;
     bottom: 50%;
-    @include translat(102%, 50%);
+    @include translat(-102px, 50%);
     @include tran(0.5s);
     z-index: 99999;
     @include bshadow(0 0 5px);
@@ -351,7 +351,7 @@ $w_color: #fff;
         position: fixed;
         top: -30px;
         cursor: pointer;
-        right: 50%;
+        right: -85px;
         @include translat(-175%, 0);
         background: #fff;
         z-index: 99999;
@@ -390,11 +390,11 @@ $w_color: #fff;
         }
     }
     .theme-click-1 {
-        transform: translate(50%) rotate(-180deg);
-        -o-transform: translate(50%) rotate(-180deg);
-        -webkit-transform: translate(50%) rotate(-180deg);
-        -ms-transform: translate(50%) rotate(-180deg);
-        -moz-transform: translate(50%) rotate(-180deg);
+        transform: translate(-120px) rotate(-180deg);
+        -o-transform: translate(-120px) rotate(-180deg);
+        -webkit-transform: translate(-120px) rotate(-180deg);
+        -ms-transform: translate(-120px) rotate(-180deg);
+        -moz-transform: translate(-120px) rotate(-180deg);
     }
 }
 
@@ -447,9 +447,6 @@ $w_color: #fff;
                 font-weight: bold;
                 font-size: 20px;
             }
-        }
-        .brand {
-            color: #fff;
         }
     }
     /* logo */
@@ -736,6 +733,294 @@ $w_color: #fff;
 
 
 /****************** end about me **********************************/
+
+
+/******************** start galry ***********/
+
+
+/* Controls
+---------------------------------------------------------------------- */
+
+.gallery {
+    padding-top: 20px;
+    margin-top: 50px;
+    h1,
+    p {
+        text-align: center;
+    }
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.control {
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px 10px 0;
+}
+
+.control[data-filter]+.control[data-sort] {
+    margin-left: 0.75rem;
+}
+
+
+/* Container
+  ---------------------------------------------------------------------- */
+
+.protfolio {
+    padding: 1rem;
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+
+/* Target Elements
+  ---------------------------------------------------------------------- */
+
+.mix,
+.gap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mix {
+    @include bradius(20px);
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Grid Breakpoints
+  ---------------------------------------------------------------------- */
+
+
+/* 2 Columns */
+
+.mix,
+.gap {
+    width: calc(100% / 1 - (((2 - 1) * 1rem) / 2));
+}
+
+
+/* 3 Columns */
+
+@media screen and (min-width: 541px) {
+    .mix,
+    .gap {
+        width: calc(100% / 2 - (((3 - 1) * 1rem) / 3));
+    }
+}
+
+
+/* 4 Columns */
+
+@media screen and (min-width: 961px) {
+    .mix,
+    .gap {
+        width: calc(100% / 3 - (((4 - 1) * 1rem) / 4));
+    }
+}
+
+
+/* 5 Columns */
+
+@media screen and (min-width: 1281px) {
+    .mix,
+    .gap {
+        width: calc(100% / 3 - (((5 - 1) * 1rem) / 5));
+    }
+}
+
+.item {
+    height: 275px;
+    position: relative;
+    overflow: hidden;
+    img {
+        @include tran(0.5s);
+        height: 100%;
+        width: 100%;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 183, 255, 0.459);
+        width: 100%;
+        height: 25%;
+        @include tran(0.5s);
+        @include translat(-100%, 0);
+        opacity: 0;
+        .over-text {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            @include translat(-50%, -50%);
+            text-align: center;
+            display: grid;
+            a {
+                background: #fff;
+                text-decoration: none;
+                font-size: 15px;
+                width: 35px;
+                line-height: 35px;
+                height: 35px;
+                font-weight: 600;
+                @include bradius(50%);
+                color: #000;
+                @include tran(0.5s);
+                margin: auto;
+                @include bshadow(0 0 10px);
+            }
+        }
+    }
+    &:hover .overlay {
+        @include translat(0, 0);
+        opacity: 1;
+    }
+    &:hover img {
+        transform: rotate(10deg) scale(1.3);
+    }
+}
+
+
+/******************end gallery */
+
+
+/***************** start sevices ********************/
+
+.services {
+    margin-top: 40px;
+    height: 100vh;
+    .head {
+        padding: 55px 0 0 0;
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        @include translat(-50%, 0);
+        width: 100%;
+        h2 {
+            color: #fff;
+        }
+        h1 {
+            font-weight: bold;
+            display: inline-block;
+            background: #fff;
+            padding: 5px 40px;
+            @include bradius(50px);
+        }
+        h5 {
+            padding-bottom: 10px;
+            color: #fff;
+        }
+    }
+    .sevices-slider {
+        width: 100%;
+        .slide {
+            width: 100%;
+            height: 100vh;
+            padding-top: 185px;
+            .slide-container {
+                width: 100%;
+                align-items: center;
+            }
+            h3 {
+                display: inline-block;
+                color: #fff;
+                font-weight: bold;
+                position: relative;
+                padding-bottom: 10px;
+                &::after {
+                    content: "";
+                    background: #fff;
+                    height: 3px;
+                    width: 50px;
+                    position: absolute;
+                    left: 50%;
+                    bottom: -2px;
+                    @include translat(-50%, 0);
+                }
+            }
+            p {
+                color: #fff;
+            }
+        }
+        .slick-dots {
+            bottom: 0;
+            width: 100%;
+            li {
+                margin: 0;
+                width: 16%;
+                height: 40px;
+                button {
+                    font-size: 18px;
+                    line-height: 0;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    padding: 5px;
+                    cursor: pointer;
+                    color: white;
+                    outline: none;
+                    font-weight: bold;
+                }
+            }
+        }
+        .slide {
+            img {
+                width: 100%;
+                height: 65vh;
+            }
+        }
+    }
+    .carousel {
+        text-align: center;
+        height: 400px;
+        .carousel-item {
+            padding-top: 15px;
+            i {
+                border: 5px dashed;
+                width: 170px;
+                height: 170px;
+                line-height: 170px;
+                @include bradius(50%);
+                color: #000;
+                font-weight: bold;
+                font-size: 90px;
+                text-align: center;
+            }
+            h3 {
+                font-weight: 600;
+                padding-top: 15px;
+            }
+            p {
+                color: #000;
+                font-weight: 600;
+                padding-top: 10px;
+                margin-bottom: 65px;
+            }
+        }
+        .carousel-indicators {
+            position: absolute;
+            bottom: 0;
+            .active {
+                margin-top: -5px;
+            }
+            li {
+                @include tran(0.3s);
+                width: 20px;
+                height: 20px;
+                @include bradius(50%);
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+/********************** end sevicese ***********/
 
 @import 'colors';
 @import 'media';

@@ -38,14 +38,14 @@
 
 @media only screen and (max-width: 768px) {
     .navbar .menu {
-        width: 150px;
+        width: 250px;
         background: #fff;
         text-align: center;
         opacity: 0;
         transition: all 1s ease-in-out;
         position: fixed;
         right: 0;
-        max-height: 85vh;
+        height: 100vh;
         overflow-y: auto;
         z-index: 90;
         top: 50px;
@@ -64,6 +64,8 @@
     .menu a {
         color: #000 !important;
         padding: 5px;
+        margin-top: 10px;
+        font-size: 20px;
         border-radius: 5px;
         transition: all .2s ease-in-out;
         -webkit-border-radius: 5px;
@@ -81,7 +83,7 @@
     .click {
         position: absolute;
         right: 20px;
-        border-color: #fff;
+        border-color: #000;
         border-style: solid;
         border-width: 1px;
         border-radius: 50%;
@@ -97,7 +99,7 @@
     .click span {
         height: 2px;
         width: 25px;
-        background: #fff;
+        background: #000;
         display: inline-block;
         position: absolute;
         margin: -4px 6.5px;
@@ -172,11 +174,6 @@
         font-size: 25px;
     }
     /**************** end wellcome *************/
-    /*************** gallery */
-    .gallery {
-        margin-top: 150px;
-    }
-    /***************** end gallery *****/
     /******************* services **********/
     .services .carousel .carousel-item i {
         height: 130px;
