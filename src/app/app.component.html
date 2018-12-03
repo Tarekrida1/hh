@@ -1,0 +1,56 @@
+<!-- theme option   -->
+<div class="themes-menu background-dark">
+    <span class="color-light">Change Theme</span>
+    <div class="list">
+        <div id="theme-1" data-color="theme1">
+            <div></div>
+        </div>
+        <div id="theme-2" data-color="theme2">
+            <div></div>
+        </div>
+        <div id="theme-3" data-color="theme3">
+            <div></div>
+        </div>
+        <div id="theme-4" data-color="theme4">
+            <div></div>
+        </div>
+        <div id="theme-5" data-color="theme5">
+            <div></div>
+        </div>
+
+    </div>
+
+    <button class="theme-click" id="theme-click">
+                  <i class="i1 fa  fa-cog fa-spin"></i>
+                  <i class="i2 fas fa-times"></i>
+             
+                </button>
+    <div class="dw">
+        <div class="color-light" id="dark">Dark</div>
+        <div class="color-light" id="light">Light</div>
+    </div>
+</div>
+<!-- theme option   -->
+
+<!-- start nav -->
+<nav class="navbar custom-nav">
+    <div class="logo"><span id="brand" class="brand color1 font-italic">TaReK</span><span class="lan gradient" style="display: none;"><a href="ar/index.html">ع</a></span></div>
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="click">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+    <div class="menu">
+        <a class="menu-item active" id="home" routerLink=''>home</a>
+        <a class="menu-item" id="moree" routerLink='/about'>About Me</a>
+        <a class="menu-item" id="Portfolio">Portfolio</a>
+        <a class="menu-item" id="Services">Services</a>
+        <a class="menu-item" id="Contact">Contact Me</a>
+    </div>
+    <div class="progress-page">
+        <div class="prog background1" id="myprog"></div>
+    </div>
+</nav>
+<!-- end nav -->
+<router-outlet></router-outlet>

@@ -1,0 +1,49 @@
+.navbar {
+  .click {
+    left: 30px;
+    right: auto;
+  }
+  .menu {
+    right: auto;
+    left: 0;
+  }
+  .progress-page {
+    left: auto;
+    right: 0;
+    .prog {
+      left: auto;
+      right: 0;
+    }
+  }
+}
+.moree {
+  img {
+    transform: translate(50%, -90%);
+    -ms-transform: translate(50%, -90%);
+    -moz-transform: translate(50%, -90%);
+    -o-transform: translate(50%, -90%);
+    -webkit-transform: translate(50%, -90%);
+  }
+}
+.signup .custom-input label {
+  left: auto;
+  right: 15%;
+}
+.signup .custom-input input:focus + label {
+  left: auto;
+  right: 13%;
+}
+.signup textarea {
+  text-align: right;
+}
+.moree .basic h4,
+.moree .my-cv a,
+.gallery h1 {
+  letter-spacing: 0;
+}
+footer {
+  .me {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+}

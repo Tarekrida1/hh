@@ -1,0 +1,878 @@
+$theme1-main: #0080ff;
+$theme1-second: #13c0ff;
+$theme1-rgba_2: rgba(20, 192, 255, 0.8);
+$theme1-rgba_1: rgba(0, 127, 255, 0.8);
+/****/
+
+$theme2-main: #fe2370;
+$theme2-second: #ff4b68;
+$theme2-rgba_2: rgba(254, 35, 112, 0.8);
+$theme2-rgba_1: rgba(255, 75, 105, 0.8);
+/****/
+
+$theme3-main: #4bc2c5;
+$theme3-second: #3ca0a2;
+$theme3-rgba_2: rgba(75, 195, 197, 0.8);
+$theme3-rgba_1: rgba(120, 254, 225, 0.8);
+/*******/
+
+$theme4-main: #f3759f;
+$theme4-second: #c5738f;
+$theme4-rgba_2: rgba(243, 117, 159, 0.8);
+$theme4-rgba_1: rgba(244, 143, 177, 0.8);
+/***********/
+
+$theme5-main: #00a03e;
+$theme5-second: #12ca59;
+$theme5-rgba_2: rgba(0, 160, 61, 0.8);
+$theme5-rgba_1: rgba(18, 202, 89, 0.8);
+/*   theme1 ********/
+
+[data-default-color="theme1"] .color1 {
+  color: $theme1-main;
+}
+
+[data-default-color="theme1"] .color2 {
+  color: $theme1-second;
+}
+
+[data-default-color="theme1"] .background1 {
+  background-color: $theme1-main;
+}
+
+[data-default-color="theme1"] .background2 {
+  background-color: $theme1-second;
+}
+[data-default-color="theme1"] .gradient {
+  background: linear-gradient(to left, $theme1-main, $theme1-second);
+}
+[data-default-color="theme1"] .rgb1 {
+  background-color: $theme1-rgba_1;
+}
+
+[data-default-color="theme1"] .rgb2 {
+  background-color: $theme1-rgba_2;
+}
+
+[data-default-color="theme1"] .border1 {
+  border: 1px solid $theme1-second;
+}
+
+[data-default-color="theme1"]
+  .moree
+  .skills
+  .progresss
+  ul
+  li
+  .prog_bar
+  .percent
+  span:nth-of-type(2) {
+  border-top: 5px solid $theme1-second;
+}
+
+[data-default-color="theme1"] .themes-menu .theme-click .i22 {
+  color: $theme1-second;
+}
+
+[data-default-color="theme1"] .menu a:hover {
+  background: $theme1-main;
+}
+
+[data-default-color="theme1"] #toggle:checked ~ .click span:nth-of-type(1) {
+  background: $theme1-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme1"] #toggle:checked ~ .click span:last-child {
+  background: $theme1-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme1"] .wellcome .social .icon:hover a {
+  color: #000;
+}
+
+[data-default-color="theme1"] .menu a.active {
+  background: linear-gradient(to left, $theme1-main, $theme1-second);
+  color: #fff !important;
+}
+
+[data-default-color="theme1"] #my-tabs li.inactive:hover {
+  color: $theme1-second;
+  border: 1px solid $theme1-second;
+}
+
+[data-default-color="theme1"] .services .carousel .carousel-indicators .active {
+  background: $theme1-second;
+}
+
+[data-default-color="theme1"] .signup .custom-input input {
+  border-bottom: 1px solid $theme1-second;
+}
+
+[data-default-color="theme1"] .signup textarea {
+  border-bottom: 1px solid $theme1-second;
+}
+
+[data-default-color="theme1"] .signup textarea::-webkit-input-placeholder {
+  color: $theme1-main;
+}
+
+[data-default-color="theme1"] .signup textarea::-moz-input-placeholder {
+  color: $theme1-main;
+}
+
+[data-default-color="theme1"] .signup textarea::-o-input-placeholder {
+  color: $theme1-main;
+}
+
+[data-default-color="theme1"] .signup textarea::-ms-input-placeholder {
+  color: $theme1-main;
+}
+
+[data-default-color="theme1"] .signup textarea::input-placeholder {
+  color: $theme1-main;
+}
+
+[data-default-color="theme1"] .st0 {
+  fill: $theme1-rgba_1;
+}
+
+[data-default-color="theme1"] .st1 {
+  fill: $theme1-second;
+}
+
+[data-default-color="theme1"] .st2 {
+  fill: $theme1-main;
+}
+
+[data-default-color="theme1"] .gallery .item .overlay .over-text a:hover {
+  background: $theme1-second;
+  color: #fff;
+}
+
+[data-default-color="theme1"] .mixitup-control-active {
+  background: $theme1-second;
+  color: #fff;
+  outline: none;
+}
+[data-default-color="theme1"] #stt0 {
+  fill: $theme1-main;
+}
+[data-default-color="theme1"] #stt2{
+  fill: $theme1-main;
+}
+[data-default-color="theme1"] #stt1 {
+  fill: $theme1-second;
+}
+
+
+/************** end theme1 *********/
+
+/*   theme2 ********/
+
+[data-default-color="theme2"] .color1 {
+  color: $theme2-main;
+}
+
+[data-default-color="theme2"] .color2 {
+  color: $theme2-second;
+}
+
+[data-default-color="theme2"] .background1 {
+  background-color: $theme2-main;
+}
+
+[data-default-color="theme2"] .background2 {
+  background-color: $theme2-second;
+}
+
+[data-default-color="theme2"] .rgb1 {
+  background-color: $theme2-rgba_1;
+}
+
+[data-default-color="theme2"] .rgb2 {
+  background-color: $theme2-rgba_2;
+}
+[data-default-color="theme2"] .gradient {
+  background: linear-gradient(to left, $theme2-main, $theme2-second);
+}
+[data-default-color="theme2"] .border1 {
+  border: 1px solid $theme2-second;
+}
+
+[data-default-color="theme2"]
+  .moree
+  .skills
+  .progresss
+  ul
+  li
+  .prog_bar
+  .percent
+  span:nth-of-type(2) {
+  border-top: 5px solid $theme2-second;
+}
+
+[data-default-color="theme2"] .themes-menu .theme-click .i22 {
+  color: $theme2-second;
+}
+
+[data-default-color="theme2"] .menu a:hover {
+  background: $theme2-main;
+}
+
+[data-default-color="theme2"] #toggle:checked ~ .click span:nth-of-type(1) {
+  background: $theme2-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme2"] #toggle:checked ~ .click span:last-child {
+  background: $theme2-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme2"] .wellcome .social .icon:hover a {
+  color: #000;
+}
+
+[data-default-color="theme2"] .menu a.active {
+  background: linear-gradient(to left, $theme2-main, $theme2-second);
+  color: #fff !important;
+}
+
+[data-default-color="theme2"] #my-tabs li.inactive:hover {
+  color: $theme2-second;
+  border: 1px solid $theme2-second;
+}
+
+[data-default-color="theme2"] .services .carousel .carousel-indicators .active {
+  background: $theme2-second;
+}
+
+[data-default-color="theme2"] .signup .custom-input input {
+  border-bottom: 1px solid $theme2-second;
+}
+
+[data-default-color="theme2"] .signup textarea {
+  border-bottom: 1px solid $theme2-second;
+}
+
+[data-default-color="theme2"] .signup textarea::-webkit-input-placeholder {
+  color: $theme2-main;
+}
+
+[data-default-color="theme2"] .signup textarea::-moz-input-placeholder {
+  color: $theme2-main;
+}
+
+[data-default-color="theme2"] .signup textarea::-o-input-placeholder {
+  color: $theme2-main;
+}
+
+[data-default-color="theme2"] .signup textarea::-ms-input-placeholder {
+  color: $theme2-main;
+}
+
+[data-default-color="theme2"] .signup textarea::input-placeholder {
+  color: $theme1-main;
+}
+
+[data-default-color="theme2"] .st0 {
+  fill: $theme2-rgba_1;
+}
+
+[data-default-color="theme2"] .st1 {
+  fill: $theme2-second;
+}
+
+[data-default-color="theme2"] .st2 {
+  fill: $theme2-main;
+}
+
+[data-default-color="theme2"] .gallery .item .overlay .over-text a:hover {
+  background: $theme2-second;
+  color: #fff;
+}
+
+[data-default-color="theme2"] .mixitup-control-active {
+  background: $theme2-second;
+  color: #fff;
+  outline: none;
+}
+[data-default-color="theme2"] #stt0 {
+  fill: $theme2-main;
+}
+[data-default-color="theme2"] #stt2{
+  fill: $theme2-main;
+}
+[data-default-color="theme2"] #stt1 {
+  fill: $theme2-second;
+}
+
+/************** end theme2 *********/
+
+/*   theme3 ********/
+
+[data-default-color="theme3"] .color1 {
+  color: $theme3-main;
+}
+
+[data-default-color="theme3"] .color2 {
+  color: $theme3-second;
+}
+
+[data-default-color="theme3"] .background1 {
+  background-color: $theme3-main;
+}
+
+[data-default-color="theme3"] .background2 {
+  background-color: $theme3-second;
+}
+
+[data-default-color="theme3"] .rgb1 {
+  background-color: $theme3-rgba_1;
+}
+
+[data-default-color="theme3"] .rgb2 {
+  background-color: $theme3-rgba_2;
+}
+[data-default-color="theme3"] .gradient {
+  background: linear-gradient(to left, $theme3-main, $theme3-second);
+}
+[data-default-color="theme3"] .border1 {
+  border: 1px solid $theme3-second;
+}
+
+[data-default-color="theme3"]
+  .moree
+  .skills
+  .progresss
+  ul
+  li
+  .prog_bar
+  .percent
+  span:nth-of-type(2) {
+  border-top: 5px solid $theme3-second;
+}
+
+[data-default-color="theme3"] .themes-menu .theme-click .i22 {
+  color: $theme3-second;
+}
+
+[data-default-color="theme3"] .menu a:hover {
+  background: $theme3-main;
+}
+
+[data-default-color="theme3"] #toggle:checked ~ .click span:nth-of-type(1) {
+  background: $theme3-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme3"] #toggle:checked ~ .click span:last-child {
+  background: $theme3-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme3"] .wellcome .social .icon:hover a {
+  color: #000;
+}
+
+[data-default-color="theme3"] .menu a.active {
+  background: linear-gradient(to left, $theme3-main, $theme3-second);
+  color: #fff !important;
+}
+
+[data-default-color="theme3"] #my-tabs li.inactive:hover {
+  color: $theme3-second;
+  border: 1px solid $theme3-second;
+}
+
+[data-default-color="theme3"] .services .carousel .carousel-indicators .active {
+  background: $theme3-second;
+}
+
+[data-default-color="theme3"] .signup .custom-input input {
+  border-bottom: 1px solid $theme3-second;
+}
+
+[data-default-color="theme3"] .signup textarea {
+  border-bottom: 1px solid $theme3-second;
+}
+
+[data-default-color="theme3"] .signup textarea::-webkit-input-placeholder {
+  color: $theme3-main;
+}
+
+[data-default-color="theme3"] .signup textarea::-moz-input-placeholder {
+  color: $theme3-main;
+}
+
+[data-default-color="theme3"] .signup textarea::-o-input-placeholder {
+  color: $theme3-main;
+}
+
+[data-default-color="theme3"] .signup textarea::-ms-input-placeholder {
+  color: $theme3-main;
+}
+
+[data-default-color="theme3"] .signup textarea::input-placeholder {
+  color: $theme3-main;
+}
+
+[data-default-color="theme3"] .st0 {
+  fill: $theme3-rgba_1;
+}
+
+[data-default-color="theme3"] .st1 {
+  fill: $theme3-second;
+}
+
+[data-default-color="theme3"] .st2 {
+  fill: $theme3-main;
+}
+
+[data-default-color="theme3"] .gallery .item .overlay .over-text a:hover {
+  background: $theme3-second;
+  color: #fff;
+}
+
+[data-default-color="theme3"] .mixitup-control-active {
+  background: $theme3-second;
+  color: #fff;
+  outline: none;
+}
+[data-default-color="theme3"] #stt0 {
+  fill: $theme3-main;
+}
+[data-default-color="theme3"] #stt2{
+  fill: $theme3-main;
+}
+[data-default-color="theme3"] #stt1 {
+  fill: $theme3-second;
+}
+
+/************** end theme3 *********/
+
+/*   theme4 ********/
+
+[data-default-color="theme4"] .color1 {
+  color: $theme4-main;
+}
+
+[data-default-color="theme4"] .color2 {
+  color: $theme4-second;
+}
+
+[data-default-color="theme4"] .background1 {
+  background-color: $theme4-main;
+}
+
+[data-default-color="theme4"] .background2 {
+  background-color: $theme4-second;
+}
+
+[data-default-color="theme4"] .rgb1 {
+  background-color: $theme4-rgba_1;
+}
+
+[data-default-color="theme4"] .rgb2 {
+  background-color: $theme4-rgba_2;
+}
+[data-default-color="theme4"] .gradient {
+  background: linear-gradient(to left, $theme4-main, $theme4-second);
+}
+[data-default-color="theme4"] .border1 {
+  border: 1px solid $theme4-second;
+}
+
+[data-default-color="theme4"]
+  .moree
+  .skills
+  .progresss
+  ul
+  li
+  .prog_bar
+  .percent
+  span:nth-of-type(2) {
+  border-top: 5px solid $theme4-second;
+}
+
+[data-default-color="theme4"] .themes-menu .theme-click .i22 {
+  color: $theme4-second;
+}
+
+[data-default-color="theme4"] .menu a:hover {
+  background: $theme4-main;
+}
+
+[data-default-color="theme4"] #toggle:checked ~ .click span:nth-of-type(1) {
+  background: $theme4-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme4"] #toggle:checked ~ .click span:last-child {
+  background: $theme4-second !important;
+  color: #fff 4;
+}
+
+[data-default-color="theme4"] .wellcome .social .icon:hover a {
+  color: #000;
+}
+
+[data-default-color="theme4"] .menu a.active {
+  background: linear-gradient(to left, $theme4-main, $theme4-second);
+  color: #fff !important;
+}
+
+[data-default-color="theme4"] #my-tabs li.inactive:hover {
+  color: $theme4-second;
+  border: 1px solid $theme4-second;
+}
+
+[data-default-color="theme4"] .services .carousel .carousel-indicators .active {
+  background: $theme4-second;
+}
+
+[data-default-color="theme4"] .signup .custom-input input {
+  border-bottom: 1px solid $theme4-second;
+}
+
+[data-default-color="theme4"] .signup textarea {
+  border-bottom: 1px solid $theme4-second;
+}
+
+[data-default-color="theme4"] .signup textarea::-webkit-input-placeholder {
+  color: $theme4-main;
+}
+
+[data-default-color="theme4"] .signup textarea::-moz-input-placeholder {
+  color: $theme4-main;
+}
+
+[data-default-color="theme4"] .signup textarea::-o-input-placeholder {
+  color: $theme4-main;
+}
+
+[data-default-color="theme4"] .signup textarea::-ms-input-placeholder {
+  color: $theme4-main;
+}
+
+[data-default-color="theme4"] .signup textarea::input-placeholder {
+  color: $theme1-main;
+}
+
+[data-default-color="theme4"] .st0 {
+  fill: $theme4-rgba_1;
+}
+
+[data-default-color="theme4"] .st1 {
+  fill: $theme4-second;
+}
+
+[data-default-color="theme4"] .st2 {
+  fill: $theme4-main;
+}
+
+[data-default-color="theme4"] .gallery .item .overlay .over-text a:hover {
+  background: $theme4-second;
+  color: #fff;
+}
+
+[data-default-color="theme4"] .mixitup-control-active {
+  background: $theme4-second;
+  color: #fff;
+  outline: none;
+}
+[data-default-color="theme4"] #stt0 {
+  fill: $theme4-main;
+}
+[data-default-color="theme4"] #stt2{
+  fill: $theme4-main;
+}
+[data-default-color="theme4"] #stt1 {
+  fill: $theme4-second;
+}
+
+
+/************** end theme4 *********/
+
+/*   theme5 ********/
+
+[data-default-color="theme5"] .color1 {
+  color: $theme5-main;
+}
+
+[data-default-color="theme5"] .color2 {
+  color: $theme5-second;
+}
+
+[data-default-color="theme5"] .background1 {
+  background-color: $theme5-main;
+}
+
+[data-default-color="theme5"] .background2 {
+  background-color: $theme5-second;
+}
+
+[data-default-color="theme5"] .rgb1 {
+  background-color: $theme5-rgba_1;
+}
+
+[data-default-color="theme5"] .rgb2 {
+  background-color: $theme5-rgba_2;
+}
+[data-default-color="theme5"] .gradient {
+  background: linear-gradient(to left, $theme5-main, $theme5-second);
+}
+[data-default-color="theme5"] .border1 {
+  border: 1px solid $theme5-second;
+}
+
+[data-default-color="theme5"]
+  .moree
+  .skills
+  .progresss
+  ul
+  li
+  .prog_bar
+  .percent
+  span:nth-of-type(2) {
+  border-top: 5px solid $theme5-second;
+}
+
+[data-default-color="theme5"] .themes-menu .theme-click .i22 {
+  color: $theme5-second;
+}
+
+[data-default-color="theme5"] .menu a:hover {
+  background: $theme5-main;
+}
+
+[data-default-color="theme5"] #toggle:checked ~ .click span:nth-of-type(1) {
+  background: $theme5-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme5"] #toggle:checked ~ .click span:last-child {
+  background: $theme5-second !important;
+  color: #fff;
+}
+
+[data-default-color="theme5"] .wellcome .social .icon:hover a {
+  color: #000;
+}
+
+[data-default-color="theme5"] .menu a.active {
+  background: linear-gradient(to left, $theme5-main, $theme5-second);
+  color: #fff !important;
+}
+
+[data-default-color="theme5"] #my-tabs li.inactive:hover {
+  color: $theme5-second;
+  border: 1px solid $theme5-second;
+}
+
+[data-default-color="theme5"] .services .carousel .carousel-indicators .active {
+  background: $theme5-second;
+}
+
+[data-default-color="theme5"] .signup .custom-input input {
+  border-bottom: 1px solid $theme5-second;
+}
+
+[data-default-color="theme5"] .signup textarea {
+  border-bottom: 1px solid $theme5-second;
+}
+
+[data-default-color="theme5"] .signup textarea::-webkit-input-placeholder {
+  color: $theme5-main;
+}
+
+[data-default-color="theme5"] .signup textarea::-moz-input-placeholder {
+  color: $theme5-main;
+}
+
+[data-default-color="theme5"] .signup textarea::-o-input-placeholder {
+  color: $theme5-main;
+}
+
+[data-default-color="theme5"] .signup textarea::-ms-input-placeholder {
+  color: $theme5-main;
+}
+
+[data-default-color="theme5"] .signup textarea::input-placeholder {
+  color: $theme5-main;
+}
+
+[data-default-color="theme5"] .st0 {
+  fill: $theme5-rgba_1;
+}
+
+[data-default-color="theme5"] .st1 {
+  fill: $theme5-second;
+}
+
+[data-default-color="theme5"] .st2 {
+  fill: $theme5-main;
+}
+
+[data-default-color="theme5"] .gallery .item .overlay .over-text a:hover {
+  background: $theme5-second;
+  color: #fff;
+}
+
+[data-default-color="theme5"] .mixitup-control-active {
+  background: $theme5-second;
+  color: #fff;
+  outline: none;
+}
+[data-default-color="theme5"] #stt0 {
+  fill: $theme5-main;
+}
+[data-default-color="theme5"] #stt2{
+  fill: $theme5-main;
+}
+[data-default-color="theme5"] #stt1 {
+  fill: $theme5-second;
+}
+
+/************** end theme5 *********/
+
+#theme-1 {
+  background: $theme1-second;
+  div {
+    background: $theme1-main;
+  }
+}
+
+#theme-2 {
+  background: $theme2-second;
+  div {
+    background: $theme2-main;
+  }
+}
+
+#theme-3 {
+  background: $theme3-second;
+  div {
+    background: $theme3-main;
+  }
+}
+
+#theme-4 {
+  background: $theme4-second;
+  div {
+    background: $theme4-main;
+  }
+}
+
+#theme-5 {
+  background: $theme5-second;
+  div {
+    background: $theme5-main;
+  }
+}
+
+[data-dark="dark"] .background-dark {
+  background: #000;
+}
+
+[data-dark="dark"] .color-dark {
+  background: #000;
+}
+
+[data-dark="dark"] .background-light {
+  background: #fff;
+}
+
+[data-dark="dark"] .color-light {
+  color: #fff;
+}
+
+[data-dark="dark"] .moree .basic p {
+  color: rgb(221, 208, 208);
+}
+
+[data-dark="dark"] #my-tabs li.inactive {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+[data-dark="dark"] .services .carousel .carousel-item p {
+  color: #fff;
+}
+
+[data-dark="dark"] .signup .signup-content {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #fff;
+}
+
+[data-dark="dark"] .themes-menu {
+  border: 1px solid #fff;
+}
+
+[data-dark="dark"] .services .carousel .carousel-item i {
+  color: #fff;
+}
+
+[data-dark="dark"] .mix {
+  box-shadow: 3px 3px 10px -2px rgba(255, 255, 255, 0.3);
+}
+
+.mix {
+  box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.3);
+}
+.wrap {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.type-wrap {
+  margin: 10px auto;
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  border: #ccc 1px solid;
+}
+/* services */
+.services .sevices-slider {
+  .slick-dots {
+    li:nth-child(1) button {
+      background: $theme1-main;
+    }
+    li:nth-child(2) button {
+      background: $theme2-main;
+    }
+    li:nth-child(3) button {
+      background: $theme3-main;
+    }
+    li:nth-child(4) button {
+      background: $theme4-main;
+    }
+    li:nth-child(5) button {
+      background: $theme5-main;
+    }
+    li:nth-child(6) button {
+      background: #000;
+    }
+  }
+}
+#slick-slide00 {
+  background: $theme1-main;
+}
+#slick-slide01 {
+  background: $theme2-main;
+}
+#slick-slide02 {
+  background: $theme3-main;
+}
+#slick-slide03 {
+  background: $theme4-main;
+}
+#slick-slide04 {
+  background: $theme5-main;
+}
+#slick-slide05 {
+  background: #000;
+}
+/* end services */
